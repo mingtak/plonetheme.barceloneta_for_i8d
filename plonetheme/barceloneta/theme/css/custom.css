@@ -1,0 +1,35 @@
+.col-item .actions-links .add-to-links a.link-wishlist:before {
+        content: "\f07a";
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "FontAwesome";
+}
+
+.RHS-banner .button {
+        border: 1px #ddd solid;
+        padding: 7px 12px;
+        margin-bottom: 15px;
+        transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+.RHS-banner .button:hover {
+        border: 1px solid #333333;
+        background: #333333;
+        padding: 7px 12px;
+        color: #FFF;
+}
+
+section.main-container .button {
+        border: 1px #ddd solid;
+        background-color: #65A82B;
+        padding: 7px 12px;
+        margin-bottom: 15px;
+        transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+section.main-container .button:hover {
+        border: 1px solid #333333;
+        background: #333333;
+        padding: 7px 12px;
+        color: #FFF;
+}

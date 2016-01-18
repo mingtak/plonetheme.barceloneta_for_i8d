@@ -24,10 +24,13 @@
 
     <!-- Copy link, style, meta tags from Plone head -->
     <before
-      content="/html/head/link | /html/head/style | /html/head/meta"
+      content="/html/head/links | /html/head/styles | /html/head/meta"
       css:theme-children="html head"
       />
-
+<!--
+    <drop content="/html/head/link[@data-bundle = 'plone']"/>
+    <drop content="/html/head/script[@data-bundle = 'plone']"/>
+-->
     <!-- merge classes from Plone body with theme body -->
     <merge
       attributes="class"
@@ -50,6 +53,12 @@
     <replace
       css:content-children="#portal-globalnav"
       css:theme-children="ul#nav"
+      />
+
+    <!-- SERVICE EXPLANATION -->
+    <replace
+      css:theme="div.header-service"
+      css:content-children="div#service_explanation"
       />
 
     <!-- LOGIN (FOR ANONYMOUS USERS) -->
@@ -114,18 +123,28 @@
       />
 
     <!-- CONTENT -->
-    <replace
+<!--    <replace
       css:content="#content"
       css:theme-children="section.main-container div.container"
       />
+-->
+    <before css:content="#content-core" css:theme="footer"/>
 
-    <!-- FOOTER -->
-    <replace
+    <!-- FOOTER / 待處理 -->
+<!--    <replace
       css:content="#portal-siteactions"
       css:theme-children="footer"
       />
-
-
+-->
+    <!-- Drop Theme's div/section -->
+    <drop css:theme="div#magik-slideshow"/>
+    <drop css:theme="div.offer-banner-section"/>
+    <drop css:theme="section.main-container.home-content-container"/>
+    <drop css:theme="section.featured-pro.wow.animated"/>
+    <drop css:theme="section.middle-slider.container"/>
+    <drop css:theme="div.promo-banner-section.container.wow"/>
+    <drop css:theme="section.recommend.container"/>
+    <drop css:theme="section.latest-blog.container"/>
 
     </rules>
 
