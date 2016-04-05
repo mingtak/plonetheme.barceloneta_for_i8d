@@ -15,7 +15,7 @@
 
         // Sticky sidebar
         jQuery(".sidebar_area").theiaStickySidebar({
-            additionalMarginTop: 65
+//            additionalMarginTop: 250
         });
 
 

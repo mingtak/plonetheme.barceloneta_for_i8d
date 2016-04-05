@@ -44,17 +44,19 @@
       css:theme-children="html body"
       />
 
+
     <!-- LOGO -->
     <copy attributes="href title alt" css:content="#portal-logo" css:theme="a.logo" />
     <copy attributes="src title alt" css:content="#portal-logo img" css:theme="a.logo img" />
 
 
     <!-- PORTAL NAVIGATION -->
-    <replace
+    <replace css:content="nav.theme-nav" css:theme="nav"/>
+<!--    <replace
       css:content-children="#portal-globalnav"
       css:theme-children="ul#nav"
       />
-
+-->
     <!-- SERVICE EXPLANATION -->
     <replace
       css:theme="div.header-service"
@@ -130,12 +132,12 @@
 -->
     <before css:content="#content-core" css:theme="footer"/>
 
+    <!-- script in portal-footer -->
+    <after css:theme-children="body" css:content-children="#third-party-code" />
+
     <!-- FOOTER / 待處理 -->
-<!--    <replace
-      css:content="#portal-siteactions"
-      css:theme-children="footer"
-      />
--->
+    <replace css:content="footer.footer.bounceInUp.animated" css:theme="footer" />
+
     <!-- Drop Theme's div/section -->
     <drop css:theme="div#magik-slideshow"/>
     <drop css:theme="div.offer-banner-section"/>
@@ -145,6 +147,8 @@
     <drop css:theme="div.promo-banner-section.container.wow"/>
     <drop css:theme="section.recommend.container"/>
     <drop css:theme="section.latest-blog.container"/>
+    <drop css:theme="div.header-left"/>
+
 
     </rules>
 

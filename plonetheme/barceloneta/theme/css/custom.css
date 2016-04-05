@@ -1,3 +1,25 @@
+.page-title h1, .page-title h2 {
+	color: #000;
+	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	margin-top: 5px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.category-title h1 {
+        color: #000;
+        font-family: DIN, Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        margin-top: 5px;
+        padding: 0;
+        font-weight: bold;
+}
+
+table.product-overview tr td {
+        padding-bottom:15px; padding-top:15px;"
+}
+
 .col-item .actions-links .add-to-links a.link-wishlist:before {
         content: "\f07a";
 }
@@ -25,6 +47,7 @@ section.main-container .button {
         background-color: #65A82B;
         padding: 7px 12px;
         margin-bottom: 15px;
+        margin-right: 20px;
         transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 section.main-container .button:hover {
@@ -33,3 +56,11 @@ section.main-container .button:hover {
         padding: 7px 12px;
         color: #FFF;
 }
+
+button.button.btn-edit:before {
+        content: "\f061";
+        font-family: FontAwesome;
+        font-size: 12px;
+        padding-right: 8px;
+}
+

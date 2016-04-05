@@ -185,9 +185,9 @@
 				if (position == 'fixed') {
 					o.stickySidebar.css({
 						'position': 'fixed',
-						'width': o.sidebar.width(),
-						'top': top,
-						'left': o.sidebar.offset().left + parseInt(o.sidebar.css('padding-left'))
+                                                'width': o.sidebar.width(),
+                                                'top': top,
+//                                                'left': o.sidebar.offset().left + parseInt(o.sidebar.css('padding-left'))
 					});
 				}
 				else if (position == 'absolute') {

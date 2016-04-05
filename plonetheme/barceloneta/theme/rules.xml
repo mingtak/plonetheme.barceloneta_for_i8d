@@ -6,20 +6,15 @@
        xmlns:xi="http://www.w3.org/2001/XInclude">
 
 
-<rules if="$is_anonymous">
+
+
+<rules if-not="$can_see_backend">
   <xi:include href="green.xml" />
 </rules>
 
 
 
-
-
-
-
-
-
-
-<rules if-not="$is_anonymous">
+<rules if="$can_see_backend">
   <theme href="index.html" />
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
