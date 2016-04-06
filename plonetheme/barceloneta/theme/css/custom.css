@@ -1,5 +1,21 @@
-.selectcity, .selectdistrict {
+.selectcity,
+.selectdistrict,
+input.fillzip,
+input.receiver,
+input.phone,
+input.cellphone,
+input.email,
+input.taxid,
+input.companytitle {
 	width:auto;
+        color:#222;
+        background-color:#ddd;
+}
+
+input.filladdress {
+        width:60%;
+        color:#222;
+        background-color:#ddd;
 }
 
 .page-title h1, .page-title h2 {
