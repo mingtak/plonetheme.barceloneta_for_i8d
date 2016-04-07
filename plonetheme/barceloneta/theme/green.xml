@@ -138,6 +138,9 @@
     <!-- FOOTER / 待處理 -->
     <replace css:content="footer.footer.bounceInUp.animated" css:theme="footer" />
 
+    <!-- Header-container -->
+    <replace css:content="header.header-container" css:theme="header.header-container" />
+
     <!-- Drop Theme's div/section -->
     <drop css:theme="div#magik-slideshow"/>
     <drop css:theme="div.offer-banner-section"/>
