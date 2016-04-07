@@ -1,26 +1,50 @@
-.selectcity,
-.selectdistrict,
-input.fillzip,
-input.receiver,
-input.phone,
-input.cellphone,
-input.email,
-input.taxid,
-input.companytitle {
-	width:auto;
-        color:#222;
-        background-color:#ddd;
+table.accountinfo {
+	border:3px #FA5 solid;
+	padding:5px;
+}
+
+table.accountinfo td {
+        border:2px #abf solid;
+        padding:15px;
+}
+
+table.accountinfo td.fieldtitle {
+        text-align:center;
+        vertical-align:middle;
+        width:30%;
+}
+
+table.accountinfo tr.odd {
+	background-color:#bfa;
+}
+
+table.accountinfo tr.even {
+        background-color:#ffa;
+}
+
+input.accountinfo {
+        width:100%;
 }
 
 input.filladdress {
         width:60%;
-        color:#222;
-        background-color:#ddd;
+}
+
+select {
+	width:auto;
+}
+
+input.input-text, select, textarea {
+	background-color: #ddd;
+	border: 1px #f1f1f1 solid;
+	padding: 10px;
+	outline: none;
+	color: #222;
 }
 
 .page-title h1, .page-title h2 {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	margin-top: 5px;
 	padding: 0;
@@ -29,7 +53,7 @@ input.filladdress {
 
 .category-title h1 {
         color: #000;
-        font-family: DIN, Helvetica, Arial, sans-serif;
+        font-family: 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
         font-size: 24px;
         margin-top: 5px;
         padding: 0;
