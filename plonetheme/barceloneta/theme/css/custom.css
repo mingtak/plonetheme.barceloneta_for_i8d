@@ -1,3 +1,7 @@
+.header-container .signup a {
+	border: none;
+}
+
 table.accountinfo {
 	border:3px #FA5 solid;
 	padding:5px;

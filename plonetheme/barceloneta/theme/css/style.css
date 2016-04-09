@@ -10483,6 +10483,18 @@ nav {
 	font-size: 13px;
 	padding-right: 6px
 }
+.toplinks>div>div.orderquery>a:before {
+        content: '\f022';
+        font-family: FontAwesome;
+        font-size: 13px;
+        padding-right: 6px
+}
+.toplinks>div>div.shoppingcart>a:before {
+        content: '\f07a';
+        font-family: FontAwesome;
+        font-size: 13px;
+        padding-right: 6px
+}
 .toplinks>div>div.wishlist>a:before {
 	content: '\f004';
 	font-family: FontAwesome;
