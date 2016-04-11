@@ -144,7 +144,7 @@ website:   	http://www.magikcommerce.com/
 	font-size: 70px;
 	line-height: 70px;
 	font-weight: bold;
-	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	color: #888;
 	text-decoration: none;
 	background-color: transparent;
@@ -156,7 +156,7 @@ website:   	http://www.magikcommerce.com/
 .tp-caption.LargeTitle {
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	color: #000;
 	text-decoration: none;
 	background-color: transparent;

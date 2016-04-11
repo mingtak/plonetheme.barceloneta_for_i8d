@@ -41,7 +41,7 @@
     <!-- Copy script tags from Plone head to end of body -->
     <before
       css:content="html head script"
-      css:theme-children="html body"
+      css:theme-children="html head"
       />
 
 

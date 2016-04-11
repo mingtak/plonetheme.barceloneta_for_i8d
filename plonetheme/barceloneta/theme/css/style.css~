@@ -2633,7 +2633,7 @@ ul.topnav em:hover {
 	font-size: 12px;
 	color: #333;
 	white-space: nowrap;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
+	font-family: DIN, Helvetica, Arial, sans-serif
 }
 .price-box {
 	margin: 3px 0;
@@ -6008,7 +6008,7 @@ button.button.view-all:before {
 	float: left;
 }
 .button {
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	border: 1px #ddd solid;
 	background: #fff;
 	padding: 7px 12px;
@@ -6508,7 +6508,7 @@ a.button-asc.left span {
 	color: #000;
 	font-weight: normal;
 	text-align: left;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 }
 .products-list .product-name a:hover {
 	text-decoration: none;
@@ -6819,7 +6819,7 @@ li .list {
 	padding: 2px 0px;
 	position: relative;
 	display: block;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	border-bottom: 1px solid #ccc;
@@ -6929,7 +6929,7 @@ a.button.view-all {
 	transition: all 0.3s linear;
 	vertical-align: top;
 	border: 1px solid #ddd;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 .button.view-all:hover {
@@ -7061,7 +7061,7 @@ a.button.view-all {
 }
 .product-tabs li.active a {
 	color: #0a3151;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	padding: 12px;
 	border: none;
@@ -7070,7 +7070,7 @@ a.button.view-all {
 .product-tabs li.active a:hover {
 	background: none repeat scroll 0 0 #fff;
 	color: #0a3151;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	padding: 12px;
 	border: none;
@@ -7106,7 +7106,7 @@ a.button.view-all {
 	line-height: 42px;
 	text-transform: uppercase;
 	color: #333;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	height: 42px;
 	padding: 12px;
@@ -7422,7 +7422,7 @@ fieldset {
 	position: absolute;
 	right: 15px;
 	margin-top: 0px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold
 }
@@ -7481,7 +7481,7 @@ fieldset {
 /* Add to Cart */
 
 .add-to-cart label {
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	color: #333;
 	font-size: 12px;
 	font-weight: bold;
@@ -7600,7 +7600,7 @@ fieldset {
 	margin: 0;
 }
 .add-to-links span {
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	margin-left: 5px;
 	text-transform: uppercase;
@@ -7725,7 +7725,7 @@ fieldset {
 .one-page-checkout .active .step-title h3 {
 	color: #333333;
 	font-size: 13px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 .one-page-checkout .step-title h3 {
@@ -7734,7 +7734,7 @@ fieldset {
 	text-align: left;
 	line-height: 35px;
 	font-size: 13px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	color: #333;
 	font-weight: bold;
 }
@@ -7744,7 +7744,7 @@ fieldset {
 	padding-top: 0px;
 	text-align: left;
 	line-height: 32px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	border-top: none;
 }
 .contacts-index li#billing-new-address-form {
@@ -7830,7 +7830,7 @@ select#shipping-address-select:focus {
 	padding: 10px 13px;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 .one-page-checkout .active .step-title .number {
@@ -7963,7 +7963,7 @@ form-list label.required em {
 .header-container .logout {
 	float: right;
 	margin-top: 20px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
+	font-family: DIN, Helvetica, Arial, sans-serif
 }
 .header-container .logout a {
 	color: #333;
@@ -8000,7 +8000,7 @@ form-list label.required em {
 	text-transform: uppercase;
 	background-color: #fff;
 	border-bottom: 1px solid #ddd;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
@@ -8100,7 +8100,7 @@ form-list label.required em {
 .page-title_multi h2 {
 	font-size: 24px;
 	float: left;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	color: #000;
 	font-weight: bold;
 	margin-top: auto;
@@ -8236,7 +8236,7 @@ form-list label.required em {
 .totals h3 {
 	border-bottom: 1px solid #ddd;
 	color: #000;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	margin-bottom: 5px;
 	padding: 10px 0;
@@ -8299,7 +8299,7 @@ input#region {
 	margin-bottom: 15px;
 	border-bottom: 1px #ddd solid;
 	padding: 10px 0;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	margin-top: auto;
 }
@@ -8452,7 +8452,7 @@ button.button.btn-proceed-checkout span {
 /*================== 24. Wishlist Table ===================*/
 
 #wishlist-table .product-name {
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: normal;
 	margin: 0;
@@ -8667,7 +8667,7 @@ button.button.btn-proceed-checkout span {
 	font-size: 13px;
 	color: #333;
 	margin-bottom: 15px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase
 }
@@ -8717,7 +8717,7 @@ button.button.btn-proceed-checkout span {
 	font-weight: normal;
 	margin-bottom: 4em;
 	text-transform: none;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 }
 .page-not-found h3 img {
 	margin-right: 8px;
@@ -8740,7 +8740,7 @@ button.button.btn-proceed-checkout span {
 	box-shadow: 0 -4px 0 0 #000  inset;
 	color: #FFF;
 	cursor: pointer;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	padding: 14px 35px;
 	text-decoration: none;
@@ -8892,7 +8892,7 @@ button.button.btn-proceed-checkout span {
 	font-weight: bold;
 	margin-right: 8px;
 	color: #fff;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 }
 .newsletter input[type="text"] {
 	background: #FFFFFF;
@@ -8905,7 +8905,7 @@ button.button.btn-proceed-checkout span {
 	border: none;
 	padding-left: 10px;
 	font-size: 13px;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	border: none;
 	margin: 0 10px 0px 0;
 }
@@ -8917,7 +8917,7 @@ button.subscribe {
 	cursor: pointer;
 	font-weight: normal;
 	color: #fff;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
@@ -9144,7 +9144,7 @@ button.subscribe:before {
 }
 .footer-middle h4 {
 	color: #000;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0;
@@ -9313,7 +9313,7 @@ button.subscribe:before {
 }
 .newsletter-sign-box h3 {
 	color: #fff;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 15px;
@@ -9437,7 +9437,7 @@ button.subscribe:before {
 	border-bottom: 3px solid #000;
 	color: #fff;
 	display: inline-block;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: normal;
@@ -9463,7 +9463,7 @@ button.subscribe:before {
 .featured_title h2 {
 	color: #fff;
 	display: inline-block;
-	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	font-family: DIN, Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: normal;
