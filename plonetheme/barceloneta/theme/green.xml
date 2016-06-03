@@ -130,6 +130,10 @@
       css:theme-children="section.main-container div.container"
       />
 -->
+
+    <!-- global_statusmessage -->
+    <before css:content-children="#global_statusmessage" css:theme="footer" />
+
     <before css:content="#content-core" css:theme="footer"/>
 
     <!-- script in portal-footer -->
