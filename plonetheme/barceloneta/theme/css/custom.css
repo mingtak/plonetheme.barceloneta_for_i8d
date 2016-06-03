@@ -114,3 +114,8 @@ button.button.btn-edit:before {
         padding-right: 8px;
 }
 
+a {
+  color: #47F;
+  text-decoration: none;
+}
+
